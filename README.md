@@ -1,12 +1,26 @@
-# React + Vite
+# HRnet – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a minimal React app to create and store employee records locally using `localStorage`. It uses Vite for fast development and build.
 
-Currently, two official plugins are available:
+ Employee creation form with validation
+ US states and company departments from JSON files
+ Storage via browser `localStorage`
+ Routing with React Router
+ Basic SASS and CSS styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- SASS / CSS
 
-## Expanding the ESLint configuration
+1.Install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+
+2. Run in development
+npm run dev
+
+Then open http://localhost:5173 in your browser.
+
+3. Build for production
+npm run build
